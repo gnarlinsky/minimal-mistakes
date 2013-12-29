@@ -6,6 +6,16 @@ description: "A ton of text to test readability."
 category: articles
 tags: [sample post, readability, test]
 ---
+<section id="table-of-contents" class="toc">                                       
+  <header>                                                                         
+    <h3>Contents</h3>                                                              
+  </header>                                                                        
+<div id="drawer" markdown="1">                                                     
+*  Auto generated table of contents                                                
+{:toc}                                                                             
+</div>                                                                             
+</section><!-- /#table-of-contents --> 
+
 
 Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90's narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney's. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.
 

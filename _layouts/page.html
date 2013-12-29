@@ -20,7 +20,8 @@
 
 <div id="main" role="main"  itemprop="mainContentOfPage">
   <div class="article-author-side">
-    {% include _author-bio.html %}
+    {% comment %} {% include _author-bio.html %}{% endcomment%}                        
+        {% include _sidebar.html %}   
   </div>
   <article itemscope itemtype="http://schema.org/CreativeWork">
     <h1 itemprop="name">{{ page.title }}</h1>
