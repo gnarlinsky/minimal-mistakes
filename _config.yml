@@ -1,31 +1,26 @@
-title:            Minimal Mistakes
+title:            metamad
 tagline:          Jekyll Theme
 description:      A responsive Jekyll theme large featured images and solid typography.
 #Comment out url when working locally to resolve base urls correctly
-url:              http://mmistakes.github.io/minimal-mistakes
+#url:              http://gnarlinsky.github.io/minimal-mistakes
+url:             http://localhost:4000
 
-# Owner/author information
+# Owner/author information (many should go in sidebar and _author-bio.html)
 owner:
-  name:           blsh
-  avatar:         bio-photo.jpg
-  bio:            "Just another boring, time traveling, tattooed, designer from Buffalo New York."
-  email:          michael@mademistakes.com
+  name:          metamad 
+  #avatar:         bio-photo.jpg
+  #bio:            "Just another boring, time traveling, tattooed, designer from Buffalo New York."
+  #email:          michael@mademistakes.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:        "mmistakes"
-  facebook:       
-  github:         "mmistakes"
-  linkedin:       
-  instagram:      "mmistakes"
-  lastfm:         
-  tumblr:         
+  #github:         "gnarlinsky"
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    "http://plus.google.com/118238196859537351707"
+  #google_plus:    "http://plus.google.com/118238196859537351707"
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:   UA-2011187-3
-google_verify:      UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD
+# # Analytics and webmaster tools stuff goes here
+# google_analytics:   UA-2011187-3
+# google_verify:      UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
+# # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+# bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD
 
 # Links to include in top navigation
 # For external links add external: true
@@ -65,3 +60,7 @@ kramdown:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+
+## restart the Jekyll WEBrick server automatically
+#auto: true
+# update: Auto-regeneration can no longer be set from your configuration # file(s). Use the --watch/-w command-line option instead.
