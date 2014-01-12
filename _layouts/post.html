@@ -18,11 +18,11 @@
   {% if page.image.credit %}<span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>{% endif %}
 </div><!-- /.image-wrap -->{% endif %}
 
-<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
   <div class="article-author-side">
     {% comment %} {% include _author-bio.html %}{% endcomment%}                        
         {% include _sidebar.html %}   
   </div>
+<div id="index" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
   <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
     <div class="headline-wrap">
       <h1 itemprop="name">{{ page.title }}</h1>

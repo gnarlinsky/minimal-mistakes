@@ -8,7 +8,6 @@
 </head>
 
 <body class="home" itemscope itemtype="http://schema.org/WebPage">
-<h1>VERSION 2</h1>
 
 {% include _browser-upgrade.html %}
 
@@ -25,60 +24,6 @@
 </div>
 
 <div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
-
-
-
-
-
-<div style="font-size: 10px; background-color:gold; border: 1px black solid !important; padding: 5px !important; margin:10px !important">
-    <h1>Keeping my TODO list in here for now!!!!!!!!!</h1>
-    <ul>
-        <li>Put google analytics into _config.yaml, see example in there</li>
-        <li>scour every file for not-mine stuff (including images in assets)</li>
-        <li>Don't forget that the url in _config.yaml has to be changed to the
-        real one when deployed (pushed).</li>
-        <li>The top should have the CATEGORIES! (mini-defs, TIL, HOWTO, etc.)</li>
-        <li>
-            The sidebar on the left is an include statement for the author bio,
-            but instead put:
-            <ul>
-                <li>
-                    list of all article titles
-                </li>
-                <li>
-                    tags
-                </li>
-            </ul>
-        </li>
-        <li>
-        </li>
-        <li>
-        </li>
-    </ul>
-
-    <h1> And NOTEs!</h1>
-    <ul>
-        <li>Remember that now have <code>auto: true</code> in _config.yaml, so
-        don't have to restart the Jekyll WEBrick server by hand now
-            <ul>
-                <li>
-                    UPDATE!!!!!!!  No!!!  "Auto-regeneration can no longer be set from your configuration file(s).
-                    Use the <b><code>--watch/-w</code></b> command-line option instead."
-                </li>
-            </ul>
-            </li>
-    </ul>
- </div><br><br>
-
-
-
-
-
-
-
-
-
-
 
   <h3><a href="{{ site.url}}/articles">Articles</a></h3>
   {% for post in site.categories.articles limit:5 %}    
