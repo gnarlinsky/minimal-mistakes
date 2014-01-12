@@ -2,8 +2,8 @@ title:            metamad
 tagline:          Jekyll Theme
 description:      A responsive Jekyll theme large featured images and solid typography.
 #Comment out url when working locally to resolve base urls correctly
-#url:              http://gnarlinsky.github.io/minimal-mistakes
-url:             http://localhost:4000
+url:              http://gnarlinsky.github.io/minimal-mistakes
+#url:             http://localhost:4000
 
 # Owner/author information (many should go in sidebar and _author-bio.html)
 owner:
